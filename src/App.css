@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  color: #6e6e6dff;
+}
+.App {
+  text-align: center;
+  background-color: #6e6e6dff;
+}
+/****the menu part****/
+.navHolder {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0 0 30px;
+}
+.mun {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f2edd7ff;
+  padding-bottom: 10px;
+  
+}
+
+.menu-item {
+  color: #6e6e6dff;
+  padding: 12px;
+}
+.menu-item:hover {
+  color: rgb(189, 156, 11);
+}
+.activ{
+  color: #6e6e6dff;
+  background-color: #E7C9B5;
+  border-radius: 5px;
+}
+/****the contant part****/
+.flex-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  background-color: white;
+  margin: 80px 200px;
+  border-radius: 10px;
+}
+.contantHolder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 50px;
+  background-color: #f2edd7ff;
+  height: 500px;
+  padding: 0 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+.formsHolder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.imgHolder {
+  margin-bottom: 30px;
+}
+/****the butoon stayl****/
+.but {
+  background-color: #f2edd7ff;
+  color: #6e6e6dff;
+  border-color: #f2edd7ff;
+}
+.but:hover {
+  background-color: #f2edd7ff;
+  color: #6e6e6dff;
+  border-color: #6e6e6dff;
+}
+/****the footer part****/
+.footer {
+  padding-top: 50px;
+  background-color: #f2edd7ff;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.social img {
+  margin: 0 20px;
+  cursor: pointer;
+}
