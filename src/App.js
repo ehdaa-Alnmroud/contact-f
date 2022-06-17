@@ -7,6 +7,7 @@ import Nav from "react-bootstrap/Nav";
 function App() {
   return (
     <div className="App">
+      {/* the header part includes logo+navbar */}
       <div className="mun">
         <div className="logo">
           <img src="/Img/logo.png" alt="tewt img"></img>
@@ -34,6 +35,7 @@ function App() {
           </Nav>
         </div>
       </div>
+      {/* the massage part include the forms */}
       <div className="flex-div">
         <div className="contantHolder">
           <div className="imgHolder">
@@ -74,6 +76,8 @@ function App() {
           </Form>
         </div>
       </div>
+      {/* the footer part */}
+     
       <div className="footer">
         <span>Get connected with us on social networks:</span>
         <div className="social">
